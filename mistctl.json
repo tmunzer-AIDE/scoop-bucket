@@ -1,0 +1,22 @@
+{
+    "version": "0.1.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tmunzer-AIDE/mistctl/releases/download/v0.1.1/mistctl_0.1.1_windows_amd64.zip",
+            "bin": [
+                "mistctl.exe"
+            ],
+            "hash": "75e4b7f8fb0b2d34c90c66d05a604a8910681e47e09dd29b98c15907917e6256"
+        },
+        "arm64": {
+            "url": "https://github.com/tmunzer-AIDE/mistctl/releases/download/v0.1.1/mistctl_0.1.1_windows_arm64.zip",
+            "bin": [
+                "mistctl.exe"
+            ],
+            "hash": "03ca10af7cceb99e570db0fa1b85e6b966a0be8daf9270575a70ab4ad76a1e83"
+        }
+    },
+    "homepage": "https://github.com/tmunzer-AIDE/mistctl",
+    "license": "MIT",
+    "description": "Read-only, kubectl-style command line client for the Juniper Mist API"
+}
